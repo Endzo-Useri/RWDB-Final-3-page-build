@@ -78,3 +78,11 @@ h1, h2, strong {
 /* ==================
     info section
 ===================== */
+
+.info {
+	padding: 4em 0;
+}
+
+.col {
+	grid-column: 2 / -2;
+}
