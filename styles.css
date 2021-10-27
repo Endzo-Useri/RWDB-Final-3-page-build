@@ -132,6 +132,14 @@ h1, h2, strong {
 		grid-template-areas: 
 			". main main social .";
 	}
+
+	.footer-main {
+		text-align: left;
+	}
+
+	.social-list {
+		justify-content: flex-end;
+	}
 }
 
 /* ==================
