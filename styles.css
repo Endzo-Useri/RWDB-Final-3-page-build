@@ -91,7 +91,12 @@ h1, h2, strong {
 }
 
 .nav {
-	position: absolute;
+	position: fixed;
+	background: #000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 .nav-list {
@@ -99,10 +104,23 @@ h1, h2, strong {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	border: 3px solid magenta;
+	height: 100%;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
 }
 
 .nav-link {
 	color: #fff;
+	text-decoration: none;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #ffe600;
 }
 
 /* footer */
