@@ -73,6 +73,16 @@ h1, h2, strong {
 	}
 }
 
+/* navigation */
+
+.header {
+	background: #000;
+}
+
+.header-content {
+	display: flex;
+}
+
 /* footer */
 
 .footer {
