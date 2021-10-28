@@ -111,6 +111,17 @@ h1, h2, strong {
 	color: #ffe600;
 }
 
+.close-nav {
+	border: 0;
+	background: 0;
+	color: #ffe600;
+	font-weight: 700;
+	font-size: 3rem;
+	cursor: pointer;
+	padding: .5em;
+	position: absolute;
+}
+
 /* footer */
 
 .footer {
