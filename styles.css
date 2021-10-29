@@ -296,3 +296,7 @@ h1, h2, strong {
 .col:first-child {
 	grid-column:  2 / span 1;
 }
+
+/* ==================
+    template page
+===================== */
