@@ -33,7 +33,18 @@ h1, h2, strong {
 
 .page-title {
 	font-size: 3rem;
-	margin-bottom: 0;
+	margin-bottom: .5em;
+	justify-self: center;
+}
+
+.page-title::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 30px;
+	background: #ffe600;
+	margin-top: -40px;
+	margin-left: 15px;
 }
 
 .subtitle {
@@ -58,8 +69,13 @@ h1, h2, strong {
 	display: block;
 	width: 60px;
 	height: 3px;
-	margin: 10px 0 0;
+	margin: 10px;
 	background: #ffe600;
+}
+
+.section-title-center::after {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .section-title:first-child {
