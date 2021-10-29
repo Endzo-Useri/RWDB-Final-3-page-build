@@ -20,6 +20,11 @@ h1, h2, strong {
 	color: #ffe600;
 }
 
+.page-title {
+	font-size: 3rem;
+	grid-column: 2 / -2;
+}
+
 .hero-title {
 	font-size: 1.5rem;
 	line-height: 1.4;
@@ -300,3 +305,4 @@ h1, h2, strong {
 /* ==================
     template page
 ===================== */
+
