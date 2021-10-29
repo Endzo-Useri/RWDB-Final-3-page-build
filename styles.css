@@ -34,9 +34,11 @@ h1, h2, strong {
 
 .page-title {
 	font-size: 3rem;
+	margin-bottom: 0;
 }
 
 .subtitle {
+	margin: .5em 0 3em;
 	font-size: 1.125rem;
 }
 
@@ -50,6 +52,10 @@ h1, h2, strong {
 	font-size: 1.125rem;
 	color: #000;
 	margin-top: 1.25em;
+}
+
+.section-title:first-child {
+	margin-top: 0;
 }
 
 /* buttons */
@@ -327,6 +333,10 @@ h1, h2, strong {
 
 .main-template > * {
 	grid-column: 2 / -2;
+}
+
+.main-image {
+	margin-bottom: 1.5em;
 }
 
 @media (min-width: 600px) {
