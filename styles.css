@@ -321,6 +321,20 @@ h1, h2, strong {
     template page
 ===================== */
 
+.main-template {
+	padding: 4em 0;
+}
+
 .main-template > * {
 	grid-column: 2 / -2;
+}
+
+@media (min-width: 600px) {
+	.main-image {
+		grid-column: 2;
+	}
+
+	.main-text {
+		grid-column: 3 / span 2;
+	}
 }
