@@ -8,6 +8,11 @@ body {
 	line-height: 1.6;
 }
 
+img {
+	max-width: 100%;
+	display: block;
+}
+
 /* ==================
 Typography
 ===================== */
@@ -316,3 +321,6 @@ h1, h2, strong {
     template page
 ===================== */
 
+.main-template > * {
+	grid-column: 2 / -2;
+}
