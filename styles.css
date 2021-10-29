@@ -148,19 +148,19 @@ h1, h2, strong {
 	.nav {
 		position: initial;
 	}
-}
 
-.nav-list {
-	flex-direction: row;
-	justify-content: flex-start
-}
-
-.nav-item {
-	margin-left: 1em;
-}
-
-.nav-link {
-	font-size: 1rem;
+	.nav-list {
+		flex-direction: row;
+		justify-content: flex-start
+	}
+	
+	.nav-item {
+		margin-left: 2em;
+	}
+	
+	.nav-link {
+		font-size: 1rem;
+	}
 }
 
 /* footer */
