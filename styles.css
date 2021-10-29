@@ -20,9 +20,19 @@ h1, h2, strong {
 	color: #ffe600;
 }
 
+.page-title,
+.subtitle {
+	grid-column: 2 / -2;
+	color: #000;
+	text-align: center;
+}
+
 .page-title {
 	font-size: 3rem;
-	grid-column: 2 / -2;
+}
+
+.subtitle {
+	font-size: 1.125rem;
 }
 
 .hero-title {
