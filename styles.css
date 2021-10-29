@@ -10,7 +10,6 @@ body {
 
 img {
 	max-width: 100%;
-	display: block;
 }
 
 /* ==================
@@ -52,6 +51,15 @@ h1, h2, strong {
 	font-size: 1.125rem;
 	color: #000;
 	margin-top: 1.25em;
+}
+
+.section-title::after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 10px 0 0;
+	background: #ffe600;
 }
 
 .section-title:first-child {
@@ -337,6 +345,7 @@ h1, h2, strong {
 
 .main-image {
 	margin-bottom: 1.5em;
+	box-shadow: 5px 5px 0 #000, 10px 10px 0 #ffe600;
 }
 
 @media (min-width: 600px) {
