@@ -69,7 +69,7 @@ h1, h2, strong {
 	display: block;
 	width: 60px;
 	height: 3px;
-	margin: 10px;
+	margin-top: 10px;
 	background: #ffe600;
 }
 
@@ -89,12 +89,17 @@ h1, h2, strong {
 	font-weight: 700;
 	margin-top: .5em;
 	text-decoration: none;
+	border: 0;
 }
 
 .btn-primary {
 	background: #ffe600;
 	color: #000;
 	justify-self: start;
+}
+
+.btn-form {
+	justify-self: end;
 }
 
 /* ==================
@@ -304,7 +309,6 @@ h1, h2, strong {
 
 .hero > * {
 	grid-column: 2 / -2;
-	margin-right: 20%;
 }
 
 @media (min-width: 400px) {
@@ -365,7 +369,8 @@ h1, h2, strong {
 }
 
 @media (min-width: 600px) {
-	.main-image {
+	.main-image,
+	.secondary-text {
 		grid-column: 2;
 	}
 
@@ -392,5 +397,12 @@ label {
 
 input,
 textarea {
-	margin-bottom: .5em;
+	margin-bottom: .75em;
+	padding: .4em;
+	font-family: inherit;
+}
+
+textarea {
+	resize: none;
+	height: 100px;
 }
