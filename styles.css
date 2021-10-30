@@ -58,6 +58,10 @@ h1, h2, strong {
 	margin-bottom: 0;
 }
 
+.hero-subtitle {
+	font-size: 1.125rem;
+}
+
 .section-title {
 	font-size: 1.125rem;
 	color: #000;
@@ -90,12 +94,28 @@ h1, h2, strong {
 	margin-top: .5em;
 	text-decoration: none;
 	border: 0;
+	cursor: pointer;
 }
 
 .btn-primary {
 	background: #ffe600;
 	color: #000;
 	justify-self: start;
+	border-radius: 3em;
+	transform: scale(1);
+	transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background: #ffc400;
+	transform: scale(1.05);
+}
+
+.btn-primary:active {
+	background: #ffe600;
+	color: #000;
+	transform: scale(1);
 }
 
 .btn-form {
