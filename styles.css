@@ -379,5 +379,18 @@ h1, h2, strong {
 }
 
 /* ==================
-    template page
+    contact form
 ===================== */
+
+.contact-form {
+	display: grid;
+}
+
+label {
+	font-weight: 700;
+}
+
+input,
+textarea {
+	margin-bottom: .5em;
+}
