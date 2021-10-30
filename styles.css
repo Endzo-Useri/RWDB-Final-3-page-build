@@ -373,3 +373,11 @@ h1, h2, strong {
 		grid-column: 3 / span 2;
 	}
 }
+
+.secondary-text {
+	order: 2;
+}
+
+/* ==================
+    template page
+===================== */
